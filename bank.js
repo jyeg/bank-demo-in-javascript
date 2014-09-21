@@ -9,7 +9,7 @@ function Person(name,money){
 function create_person(name, amount) {
     var newPerson = new Person(name, amount);
     people.push(newPerson);
-    console.log("Hi,", name". You have $+"amount"!");
+    console.log("Hi,", name+". You have $"+amount+"!");
     return newPerson;
 }
 
